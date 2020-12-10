@@ -12,7 +12,7 @@ class RetrofitBuilder {
 
     fun <Api> buildApi(api: Class<Api>): Api
     {
-        
+
         return Retrofit.Builder()
             .baseUrl(BASE_URL)
             .client(
